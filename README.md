@@ -9,12 +9,18 @@
 
 ## Installation
 
-Run commands below:
-
+Checkout to master branch and do:
+    
     composer install
+    
+check for database configurations in .env, then run the empty project on your server.
+
+Checkout to task branch and run commands below:
 
     npm install
     npm run dev (production)
     npm run watch (development)
 
-    php artisan migrate
+    php artisan migrate --seed
+
+Create a new user and login !!!
