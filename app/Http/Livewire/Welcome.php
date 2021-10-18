@@ -19,5 +19,3 @@ class Welcome extends Component
         ->section('body');
     }
 }
-
-?>
